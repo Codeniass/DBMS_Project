@@ -186,7 +186,7 @@ curl -X POST http://localhost:8001/api/seed
 
 ## Live Demo
 
-**Live Application**: [https://placementiq.com]([https://placementiq.preview.emergentagent.com](http://localhost:3000/dashboard))
+**Live Application**: [https://placementiq.com]((http://localhost:3000/dashboard))
 
 ### Demo Credentials
 - **Username**: admin
