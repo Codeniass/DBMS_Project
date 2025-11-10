@@ -9,13 +9,13 @@ Built using FastAPI • React • MongoDB • Chart.js • Tailwind CSS
 
 ---
 
-## 📘 Overview
+## Overview
 
 PlacementIQ is an intelligent college placement management system designed to streamline and optimize the campus recruitment process. It provides institutions with powerful tools to manage student data, track company interactions, organize placement drives, and gain valuable insights through advanced analytics.
 
 The system helps placement coordinators make data-driven decisions by providing real-time statistics, interactive visualizations, and comprehensive reporting capabilities.
 
-## ✨ Features
+## Features
 
 ### Core Functionality
 - **Student Management**: Comprehensive student profiles with academic records, contact information, and placement status tracking
@@ -44,11 +44,11 @@ The system helps placement coordinators make data-driven decisions by providing 
 - **Interactive Charts**: Dynamic, interactive visualizations using Chart.js
 - **Real-time Updates**: Instant data updates without page refreshes
 
-## 🧠 Tech Stack
+## Tech Stack
 
 ### Backend
 - **FastAPI**: High-performance Python web framework
-- **MongoDB**: NoSQL database for flexible data storage
+- **MongoDB**: DB for flexible data storage
 - **Motor**: Async MongoDB driver for Python
 - **Pydantic**: Data validation and settings management
 - **PyJWT**: JWT token creation and validation
@@ -70,7 +70,7 @@ The system helps placement coordinators make data-driven decisions by providing 
 - **PostCSS**: CSS processing
 - **Craco**: Create React App configuration override
 
-## 🧩 Setup Instructions
+## Setup Instructions
 
 ### Prerequisites
 - Python 3.11+
@@ -143,7 +143,7 @@ You can also manually trigger seeding via:
 curl -X POST http://localhost:8001/api/seed
 ```
 
-## 📊 API Endpoints
+## API Endpoints
 
 ### Authentication
 - `POST /api/auth/register` - Register new admin user
@@ -184,23 +184,9 @@ curl -X POST http://localhost:8001/api/seed
 - `GET /api/analytics/yearly-trends` - Placement trends by year
 - `GET /api/analytics/role-distribution` - Offer distribution by role
 
-## 📸 Screenshots
+## Live Demo
 
-### Landing Page
-Clean, professional landing page with hero section and feature highlights.
-
-### Dashboard
-Real-time statistics and quick access to all major features.
-
-### Analytics
-Interactive charts displaying placement trends, department analysis, and package distribution.
-
-### Student Management
-Comprehensive data table with search, filter, and CRUD operations.
-
-## 🚀 Live Demo
-
-**Live Application**: [https://placementiq.preview.emergentagent.com](https://placementiq.preview.emergentagent.com)
+**Live Application**: [https://placementiq.com]([https://placementiq.preview.emergentagent.com](http://localhost:3000/dashboard))
 
 ### Demo Credentials
 - **Username**: admin
@@ -208,7 +194,7 @@ Comprehensive data table with search, filter, and CRUD operations.
 
 *Note: Register your own account or use the demo credentials to explore all features.*
 
-## 👤 Author & Contact
+## Author & Contact
 
 **Anwesha Kar**  
 Full Stack Developer | Data Analytics Enthusiast
@@ -217,7 +203,7 @@ Full Stack Developer | Data Analytics Enthusiast
 - **LinkedIn**: [linkedin.com](https://linkedin.com)
 - **Email**: contact@example.com
 
-## 📝 License
+## License
 
 This project is built for educational and portfolio purposes.
 
